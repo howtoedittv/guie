@@ -6,7 +6,7 @@
 # 🚀 Installation
 
 
-You can install **guie** in two ways:
+You can download **guie** in two ways:
 
 
 
@@ -29,6 +29,7 @@ tar -xvf guie.tar.gz
 
 
 cd guie  
+
 
 
 
