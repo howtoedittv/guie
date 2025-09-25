@@ -10,7 +10,7 @@ You can install **guie** in two ways:
 
 
 
-1. **Clone the repository**  
+1.**Clone the repository**  
 
 
 git clone https://github.com/howtoedittv/guie.git  
@@ -32,7 +32,7 @@ cd guie
 
 
 
-2. **Download release tarball (from home directory)**  
+2.**Download release tarball (from home directory)**  
 
 
 ⚠️ Make sure you are in your **home directory** before running these commands:  
