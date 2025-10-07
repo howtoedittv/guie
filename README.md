@@ -58,27 +58,14 @@ cd guie
 
 
 
-**Step 1: Build (only if you don’t already have `ee` installed)**  
-
-
-./eebuild  
-
-
-👉 **Arch & Arch-based distros**: skip `eebuild` and install `ee` directly:  
-
-
-yay -S ee-editor  
-
-
-
-**Step 2: Run the installer**  
+**Step 1: Run the installer**  
 
 
 ./installscript  
 
 
 
-**Step 3: Apply shell configuration**  
+**Step 2: Apply shell configuration**  
 
 
 Run the file corresponding to your shell (currently **bash** and **zsh** are supported):  
@@ -94,7 +81,7 @@ or
 
 
 
-**Step 4: Finalize setup**  
+**Step 3: Finalize create folders**  
 
 
 ./mkdirconfig  
@@ -109,7 +96,11 @@ or
 After installation, launch **guie** with:  
 
 
-guie  
+guie
+
+or if you want to edit a single file just do:
+
+ee "filename"
 
 
 
