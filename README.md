@@ -58,10 +58,12 @@ cd guie
 
 
 
-**Step 1: Run the installer**  
+**Step 1: Run the alacrittyconfig and the installer**  
+
+1. ./alacrittyconfig
 
 
-./installscript  
+2. ./installscript  
 
 
 
