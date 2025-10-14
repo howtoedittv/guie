@@ -1,131 +1,75 @@
-**guie** is a simple editor wrapper built around the ee file editor from the bsd bases opreting systems .  
+🌟 Guie - A Simple Wrapper for BSD's `ee` File Editor
 
+Guie is a lightweight editor wrapper around `ee` (the Easy Editor), a terminal-based editor commonly found in BSD systems. It provides a clean and user-friendly interface for quick file edits directly from your terminal.
 
----
+🧩 Supported Environments
+Shell      | Supported
+------------|-----------
+bash       | Yes
+zsh        | Yes
 
-# 🚀 Installation
+🚀 Installation
+You can install Guie in two simple ways. Choose the method that works best for you:
 
+1. Clone the Repository
+If you prefer cloning the repository, follow these steps:
 
-You can download **guie** in two ways:
+git clone https://github.com/howtoedittv/guie.git
+cd guie
+mv guie.tar.gz ~/
+cd ~
+tar -xvf guie.tar.gz
+cd guie
 
+2. Download the Release Tarball (Recommended for Simplicity)
+To download the release tarball, make sure you’re in your home directory before running the following commands:
 
+cd ~
+wget https://github.com/howtoedittv/guie/releases/download/1.0/guie.tar.gz
+tar -xvf guie.tar.gz
+cd guie
 
-1.**Clone the repository**  
+⚙️ Setup & Configuration
+After downloading and extracting Guie, follow these steps to complete the setup.
 
+Step 1: Run the configuration scripts
+First, configure Alacritty by running:
 
-git clone https://github.com/howtoedittv/guie.git  
+./alacrittyconfig
 
+Next, run the installer script:
 
-cd guie  
+./installscript
 
+Step 2: Apply shell configuration
+Choose the shell you’re using (bash or zsh) and run the appropriate script.
 
-mv guie.tar.gz ~/  
+For bash:
 
+./bashconfig
 
-cd ~  
+For zsh:
 
+./zshconfig
 
-tar -xvf guie.tar.gz  
+Step 3: Finalize folder setup
+Create the necessary directories for Guie by running:
 
+./mkdirconfig
 
-cd guie  
-
-
-
-
-2.**Download release tarball (from home directory)**  
-
-
-⚠️ Make sure you are in your **home directory** before running these commands:  
-
-
-cd ~  
-
-
-wget https://github.com/howtoedittv/guie/releases/download/1.0/guie.tar.gz  
-
-
-tar -xvf guie.tar.gz  
-
-
-cd guie  
-
-
-
----
-
-# ⚙️ Build & Install
-
-
-
-**Step 1: Run the alacrittyconfig and the installer**  
-
-1. ./alacrittyconfig
-
-
-2. ./installscript  
-
-
-
-**Step 2: Apply shell configuration**  
-
-
-Run the file corresponding to your shell (currently **bash** and **zsh** are supported):  
-
-
-./bashconfig  
-
-
-or  
-
-
-./zshconfig  
-
-
-
-**Step 3: Finalize create folders**  
-
-
-./mkdirconfig  
-
-
-
----
-
-# ▶️ Usage
-
-
-After installation, launch **guie** with:  
-
+▶️ Usage
+After installation, you can easily launch Guie from the terminal:
 
 guie
 
-or if you want to edit a single file just do:
+For single-file editing, simply use ee with the desired filename:
 
 ee "filename"
 
+⚠️ Important Notes
+- Do not run ee.sh or ee.desktop directly. These are automatically handled by the installscript for you.
+- Supported shells: bash and zsh (with more coming soon).
+- Always run the wget method from your home directory for proper setup.
 
-
----
-
-# ⚠️ Notes
-
-
-- Do **not** run `ee.sh` or `ee.desktop` directly.  
-
-  The `installscript` will handle them for you.  
-
-
-- Supported shells: **bash** and **zsh** (more coming soon).  
-
-
-- If using the **wget method**, always run it from your **home directory**.  
-
-
-
----
-
-# 📜 License
-
-
+📜 License
 MIT License
