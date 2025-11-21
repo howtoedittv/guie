@@ -31,7 +31,7 @@ After downloading and extracting Guie, follow these steps to complete the setup.
 
 **Step 1:** Run the configuration scripts  
 First, configure Alacritty by running:  
-./alacrittyconfig  
+./termconfig  
 Next, run the installer script:  
 ./installscript  
 
